@@ -1,0 +1,620 @@
+{
+  "legends": [
+    "Bloodhound",
+    "Gibraltar",
+    "Lifeline",
+    "Pathfinder",
+    "Wraith",
+    "Bangalore",
+    "Caustic",
+    "Mirage",
+    "Octane",
+    "Wattson",
+    "Crypto",
+    "Revenant",
+    "Loba",
+    "Rampart",
+    "Horizon",
+    "Fuse",
+    "Valkyrie",
+    "Seer",
+    "Ash",
+    "Mad Maggie",
+    "Newcastle",
+    "Vantage",
+    "Catalyst",
+    "Ballistic",
+    "Conduit"
+  ],
+  "legendClasses": [
+    {
+      "class": "Assault",
+      "legends": ["Bangalore", "Fuse", "Ash", "Mad Maggie", "Bangalore", "Ballistic"]
+    },
+    {
+      "class": "Skirmisher",
+      "legends": [
+        "Pathfinder",
+        "Wraith",
+        "Octane",
+        "Revenant",
+        "Horizon",
+        "Valkyrie"
+      ]
+    },
+    {
+      "class": "Recon",
+      "legends": ["Bloodhound", "Crypto", "Seer", "Vantage"]
+    },
+    {
+      "class": "Support",
+      "legends": [
+        "Gibraltar",
+        "Lifeline",
+        "Mirage",
+        "Loba",
+        "Newcastle",
+        "Conduit"
+      ]
+    },
+    {
+      "class": "Controller",
+      "legends": ["Caustic", "Wattson", "Rampart", "Rampart", "Catalyst"]
+    }
+  ],
+  "weapons": [
+    "Assault Rifles",
+    "Light Machine Guns",
+    "Marksman Weapons",
+    "Pistols",
+    "Shotguns",
+    "Sniper Rifles",
+    "Sub Machine Guns",
+    "Hipfire",
+    "Red-Tier Weapon",
+    "Melee"
+  ],
+  "recolor": [
+    "\\(n\\)",
+    "\\[weapon\\]",
+    "\\[legends\\]",
+    "legend",
+    "Bloodhound",
+    "Gibraltar",
+    "Lifeline",
+    "Pathfinder",
+    "Wraith",
+    "Bangalore",
+    "Caustic",
+    "Mirage",
+    "Octane",
+    "Wattson",
+    "Crypto",
+    "Revenant",
+    "Loba",
+    "Rampart",
+    "Horizon",
+    "Fuse",
+    "Valkyrie",
+    "Seer",
+    "Ash",
+    "Mad Maggie",
+    "Newcastle",
+    "Vantage",
+    "Catalyst",
+    "Ballistic",
+    "Conduit",
+    "Assault Rifles",
+    "Light Machine Guns",
+    "Marksman Weapons",
+    "Pistols",
+    "Shotguns",
+    "Sniper Rifles",
+    "Sub Machine Guns",
+    "Hipfire",
+    "Red-Tier Weapon",
+    "Melee",
+    "Assault",
+    "Skirmisher",
+    "Recon",
+    "Support",
+    "Controller"
+  ],
+  "challenges": [
+    {
+      "id": 1,
+      "name": "Play 12 matches as [legends]",
+      "stars": 10,
+      "mode": "Any",
+      "type": "legend"
+    },
+    {
+      "id": 2,
+      "name": "BR:Deal 7500 damage with Assault Rifles -or- NBR:Deal 15000 damage with Assault Rifles",
+      "br": "Deal 7500 damage with Assault Rifles",
+      "nbr": "Deal 15000 damage with Assault Rifles",
+      "stars": 10,
+      "mode": "Any",
+      "type": "weapon"
+    },
+    {
+      "id": 3,
+      "name": "BR:Deal 5000 damage with Light Machine Guns -or- NBR:Deal 10000 damage with Light Machine Guns",
+      "br": "Deal 5000 damage with Light Machine Guns",
+      "nbr": "Deal 10000 damage with Light Machine Guns",
+      "stars": 10,
+      "mode": "Any",
+      "type": "weapon"
+    },
+    {
+      "id": 4,
+      "name": "BR:Deal 3500 damage with Marksman Weapons -or- NBR:Deal 5000 damage with Marksman Weapons",
+      "br": "Deal 3500 damage with Marksman Weapons",
+      "nbr": "Deal 5000 damage with Marksman Weapons",
+      "stars": 10,
+      "mode": "Any",
+      "type": "weapon"
+    },
+    {
+      "id": 5,
+      "name": "BR:Deal 1000 damage with Pistols -or- NBR:Deal 2500 damage with Pistols",
+      "br": "Deal 1000 damage with Pistols",
+      "nbr": "Deal 2500 damage with Pistols",
+      "stars": 10,
+      "mode": "Any",
+      "type": "weapon"
+    },
+    {
+      "id": 6,
+      "name": "BR:Deal 2500 damage with Shotguns -or- NBR:Deal 3500 damage with Shotguns",
+      "br": "Deal 2500 damage with Shotguns",
+      "nbr": "Deal 3500 damage with Shotguns",
+      "stars": 10,
+      "mode": "Any",
+      "type": "weapon"
+    },
+    {
+      "id": 7,
+      "name": "BR:Deal 2500 damage with Sniper Rifles -or- NBR:Deal 5000 damage with Sniper Rifles",
+      "br": "Deal 2500 damage with Sniper Rifles",
+      "nbr": "Deal 5000 damage with Sniper Rifles",
+      "stars": 10,
+      "mode": "Any",
+      "type": "weapon"
+    },
+    {
+      "id": 8,
+      "name": "BR:Deal 7500 damage with Sub Machine Guns -or- NBR:Deal 15000 damage with Sub Machine Guns",
+      "br": "Deal 7500 damage with Sub Machine Guns",
+      "nbr": "Deal 15000 damage with Sub Machine Guns",
+      "stars": 10,
+      "mode": "Any",
+      "type": "weapon"
+    },
+    {
+      "id": 9,
+      "name": "BR:Deal 5000 damage as [legends] -or- NBR:Deal 8000 damage as [legends]",
+      "br": "Deal 5000 damage as [legends]",
+      "nbr": "Deal 8000 damage as [legends]",
+      "stars": 10,
+      "mode": "Any",
+      "type": "legend"
+    },
+    {
+      "id": 10,
+      "name": "BR:Get 25 knockdows with Assault Rifles -or- NBR:Get 50 knockdows with Assault Rifles",
+      "br": "Get 25 knockdows with Assault Rifles",
+      "nbr": " Get 50 knockdows with Assault Rifles",
+      "stars": 10,
+      "mode": "Any",
+      "type": "weapon"
+    },
+    {
+      "id": 11,
+      "name": "BR:Get 20 knockdows with Light Machine Guns -or- NBR:Get 40 knockdows with Light Machine Guns",
+      "br": "Get 20 knockdows with Light Machine Guns",
+      "nbr": " Get 40 knockdows with Light Machine Guns",
+      "stars": 10,
+      "mode": "Any",
+      "type": "weapon"
+    },
+    {
+      "id": 12,
+      "name": "BR:Get 10 knockdows with Marksman Weapons -or- NBR:Get 20 knockdows with Marksman Weapons",
+      "br": "Get 10 knockdows with Marksman Weapons",
+      "nbr": " Get 20 knockdows with Marksman Weapons",
+      "stars": 10,
+      "mode": "Any",
+      "type": "weapon"
+    },
+    {
+      "id": 13,
+      "name": "BR:Get 10 knockdows with Pistols -or- NBR:Get 20 knockdows with Pistols",
+      "br": "Get 10 knockdows with Pistols",
+      "nbr": " Get 20 knockdows with Pistols",
+      "stars": 10,
+      "mode": "Any",
+      "type": "weapon"
+    },
+    {
+      "id": 14,
+      "name": "BR:Get 25 knockdows with Shotguns -or- NBR:Get 35 knockdows with Shotguns",
+      "br": "Get 25 knockdows with Shotguns",
+      "nbr": " Get 35 knockdows with Shotguns",
+      "stars": 10,
+      "mode": "Any",
+      "type": "weapon"
+    },
+    {
+      "id": 15,
+      "name": "BR:Get 20 knockdows with Sniper Rifles -or- NBR:Get 30 knockdows with Sniper Rifles",
+      "br": "Get 20 knockdows with Sniper Rifles",
+      "nbr": " Get 30 knockdows with Sniper Rifles",
+      "stars": 10,
+      "mode": "Any",
+      "type": "weapon"
+    },
+    {
+      "id": 16,
+      "name": "BR:Get 25 knockdows with Sub Machine Guns -or- NBR:Get 50 knockdows with Sub Machine Guns",
+      "br": "Get 25 knockdows with Sub Machine Guns",
+      "nbr": "Get 50 knockdows with Sub Machine Guns",
+      "stars": 10,
+      "mode": "Any",
+      "type": "weapon"
+    },
+    {
+      "id": 17,
+      "name": "BR:Deal 5000 damage -or- NBR:Deal 8000 damage",
+      "br": "Deal 5000 damage",
+      "nbr": "Deal 8000 damage",
+      "stars": 5,
+      "mode": "Any",
+      "type": "any"
+    },
+    {
+      "id": 18,
+      "name": "BR:Deal 500 damage in a single match -or- NBR:Deal 750 damage in a single match",
+      "br": "Deal 500 damage in a single match",
+      "nbr": "Deal 750 damage in a single match",
+      "stars": 5,
+      "mode": "Any",
+      "type": "any"
+    },
+    {
+      "id": 19,
+      "name": "BR:Get 15 kills as [legends] -or- NBR:Get 30 kills as [legends]",
+      "br": "Get 15 kills as [legends]",
+      "nbr": "Get 30 kills as [legends]",
+      "stars": 5,
+      "mode": "Any",
+      "type": "legend"
+    },
+    {
+      "id": 20,
+      "name": "BR:Get 50 kills or assists -or- NBR:Get 65 kills or assists",
+      "br": "Get 50 kills or assists",
+      "nbr": "Get 65 kills or assists",
+      "stars": 5,
+      "mode": "Any",
+      "type": "any"
+    },
+    {
+      "id": 21,
+      "name": "BR:Win 1 matches -or- NBR:Win 5 matches",
+      "br": "Win 1 matches",
+      "nbr": "Win 5 matches",
+      "stars": 5,
+      "mode": "Any",
+      "type": "any"
+    },
+    {
+      "id": 22,
+      "name": "Deal 1000 damage with a Red-Tier weapon",
+      "stars": 5,
+      "mode": "Any",
+      "type": "weapon"
+    },
+    {
+      "id": 23,
+      "name": "Deal 4000 damage from hipfire",
+      "stars": 5,
+      "mode": "Any",
+      "type": "weapon"
+    },
+    {
+      "id": 24,
+      "name": "Deal 500 melee damage",
+      "stars": 5,
+      "mode": "Any",
+      "type": "weapon"
+    },
+    {
+      "id": 25,
+      "name": "BR:Finish in the top-3 3 times getting at least 3 kills, knockdowns or assists",
+      "stars": 5,
+      "mode": "BR",
+      "type": "br"
+    },
+    {
+      "id": 26,
+      "name": "Get 25 headshots",
+      "stars": 5,
+      "mode": "Any",
+      "type": "any"
+    },
+    {
+      "id": 27,
+      "name": "BR:Get a Top 5 finish 10 times",
+      "stars": 5,
+      "mode": "BR",
+      "type": "br"
+    },
+    {
+      "id": 28,
+      "name": "BR:Perform 10 finishing moves",
+      "stars": 5,
+      "mode": "BR",
+      "type": "br"
+    },
+    {
+      "id": 29,
+      "name": "Play 5 matches as a Assault in any game mode",
+      "stars": 5,
+      "mode": "Any",
+      "type": "legend"
+    },
+    {
+      "id": 30,
+      "name": "Play 5 matches as a Controller in any game mode",
+      "stars": 5,
+      "mode": "Any",
+      "type": "legend"
+    },
+    {
+      "id": 31,
+      "name": "Play 5 matches as a Recon in any game mode",
+      "stars": 5,
+      "mode": "Any",
+      "type": "legend"
+    },
+    {
+      "id": 32,
+      "name": "Play 5 matches as a Skirmisher in any game mode",
+      "stars": 5,
+      "mode": "Any",
+      "type": "legend"
+    },
+    {
+      "id": 33,
+      "name": "Play 5 matches as a Support in any game mode",
+      "stars": 5,
+      "mode": "Any",
+      "type": "legend"
+    },
+    {
+      "id": 34,
+      "name": "BR:Revive Squadmates 50 times",
+      "stars": 5,
+      "mode": "BR",
+      "type": "br"
+    },
+    {
+      "id": 35,
+      "name": "BR:Survive 30 ring closings",
+      "stars": 5,
+      "mode": "BR",
+      "type": "br"
+    },
+    {
+      "id": 36,
+      "name": "BR:Collect 1000 Materials for Replicators",
+      "stars": 2,
+      "mode": "BR",
+      "type": "br"
+    },
+    {
+      "id": 37,
+      "name": "BR:Craft 10 times at a Replicator",
+      "stars": 2,
+      "mode": "BR",
+      "type": "br"
+    },
+    {
+      "id": 38,
+      "name": "BR:Craft an Expired Ally Banner Card as a Support Legend",
+      "stars": 2,
+      "mode": "BR",
+      "type": "br"
+    },
+    {
+      "id": 39,
+      "name": "BR:Deal 1000 damage before the end of the first shrink",
+      "stars": 2,
+      "mode": "BR",
+      "type": "br"
+    },
+    {
+      "id": 40,
+      "name": "Deal 1500 damage from hipfire",
+      "stars": 2,
+      "mode": "Any",
+      "type": "weapon"
+    },
+    {
+      "id": 41,
+      "name": "Deal 750 damage with ordnance",
+      "stars": 2,
+      "mode": "Any",
+      "type": "weapon"
+    },
+    {
+      "id": 42,
+      "name": "BR:Defeat a Squad after Scanning them with a Survey Beacon (Recon Legends Only)",
+      "stars": 2,
+      "mode": "BR",
+      "type": "br"
+    },
+    {
+      "id": 43,
+      "name": "BR:Equip a weapon attachment in 10 different matches",
+      "stars": 2,
+      "mode": "BR",
+      "type": "br"
+    },
+    {
+      "id": 44,
+      "name": "BR:Evolve armor from purple to red 3 times",
+      "stars": 2,
+      "mode": "BR",
+      "type": "br"
+    },
+    {
+      "id": 45,
+      "name": "Get 2 kills with a Red-Tier weapon",
+      "stars": 2,
+      "mode": "Any",
+      "type": "weapon"
+    },
+    {
+      "id": 46,
+      "name": "Kill another player using the same Legend as you 1 time",
+      "stars": 2,
+      "mode": "Any",
+      "type": "any"
+    },
+    {
+      "id": 47,
+      "name": "BR:Loot 10 legendary items",
+      "stars": 2,
+      "mode": "BR",
+      "type": "br"
+    },
+    {
+      "id": 48,
+      "name": "Loot 10 neutral care packages",
+      "stars": 2,
+      "mode": "Any",
+      "type": "any"
+    },
+    {
+      "id": 49,
+      "name": "BR:Loot 50 epic items",
+      "stars": 2,
+      "mode": "BR",
+      "type": "br"
+    },
+    {
+      "id": 50,
+      "name": "BR:Obtain an Epic Attachment from a Weapon Supply Bin (Assault Legends Only)",
+      "stars": 2,
+      "mode": "BR",
+      "type": "br"
+    },
+    {
+      "id": 51,
+      "name": "BR:Open 10 Extended Supply Bins as a Support Legend",
+      "stars": 2,
+      "mode": "BR",
+      "type": "br"
+    },
+    {
+      "id": 52,
+      "name": "BR:Open 10 Weapon Supply Bins as an Assault Legend",
+      "stars": 2,
+      "mode": "BR",
+      "type": "br"
+    },
+    {
+      "id": 53,
+      "name": "BR:Open 50 supply bins",
+      "stars": 2,
+      "mode": "BR",
+      "type": "br"
+    },
+    {
+      "id": 54,
+      "name": "BR:Outlive 300 opponents",
+      "stars": 2,
+      "mode": "BR",
+      "type": "br"
+    },
+    {
+      "id": 55,
+      "name": "Play 10 matches",
+      "stars": 2,
+      "mode": "Any",
+      "type": "any"
+    },
+    {
+      "id": 56,
+      "name": "BR:Reach an identified next ring zone before the Ring moves (Controller Legends Only)",
+      "stars": 2,
+      "mode": "BR",
+      "type": "br"
+    },
+    {
+      "id": 57,
+      "name": "Regenerate 1500 temporary shields on temamates with Conduit's Radiant Transfer",
+      "stars": 2,
+      "mode": "Any",
+      "type": "legend"
+    },
+    {
+      "id": 58,
+      "name": "Restore 1000 health",
+      "stars": 2,
+      "mode": "Any",
+      "type": "any"
+    },
+    {
+      "id": 59,
+      "name": "Restore 1500 shields with Shield Cell, Shield Battery, or Phoenix Kit",
+      "stars": 2,
+      "mode": "Any",
+      "type": "any"
+    },
+    {
+      "id": 60,
+      "name": "BR:Reveal 5 Care Packages as a Skirmisher Legends",
+      "stars": 2,
+      "mode": "BR",
+      "type": "legend"
+    },
+    {
+      "id": 61,
+      "name": "BR:Revive Squadmates 20 times",
+      "stars": 2,
+      "mode": "BR",
+      "type": "br"
+    },
+    {
+      "id": 62,
+      "name": "BR:Survive 20 ring closings",
+      "stars": 2,
+      "mode": "BR",
+      "type": "br"
+    },
+    {
+      "id": 63,
+      "name": "Thank a squadmate in 10 different matches",
+      "stars": 2,
+      "mode": "Any",
+      "type": "any"
+    },
+    {
+      "id": 64,
+      "name": "BR:Use a Ring Console as a Controller Legend 10 times",
+      "stars": 2,
+      "mode": "BR",
+      "type": "br"
+    },
+    {
+      "id": 65,
+      "name": "BR:Use a Survey Beacon as a Recon Legend 10 times",
+      "stars": 2,
+      "mode": "BR",
+      "type": "br"
+    }
+  ]
+}
