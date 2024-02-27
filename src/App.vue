@@ -422,6 +422,7 @@ export default {
           unspecificChallenges: []
         }
         localStorage.setItem('overlapChallenges', JSON.stringify(overlaps))
+        this.myOverlaps = overlaps
       } else {
         this.myOverlaps = JSON.parse(myOverlaps)
       }
