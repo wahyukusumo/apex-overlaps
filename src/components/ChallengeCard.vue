@@ -1,5 +1,12 @@
 <template>
-  <div class="flex flex-col gap-2 m-2 border standard-box" v-if="totalChallenges(item.challenges) > 1">
+  <select v-model="sortBy" class="select sort-select">
+    <option v-if="type === 'legends'" value="legends">Legends Name (A-Z)</option>
+    <option v-if="type === 'weapons'" value="weapons">Weapons Name (A-Z)</option>
+    <option value="challenges">Total Challenges</option>
+    <option value="rewards">Highest Rewards</option>
+  </select>
+
+  <div class="flex flex-col gap-2 m-2 border standard-box" v-for="item in sortChallenges(items)">
 
     <div class="flex items-center justify-between 2xl:px-20 bg-stone-200 dark:bg-stone-800">
 
@@ -48,6 +55,8 @@
       </div>
     </div>
   </div>
+
+  <h1 v-if="sortChallenges(items).length === 0" class="text-xl text-stone-200 text-center">- No overlaps found - </h1>
 </template>
 
 <script>
@@ -59,10 +68,11 @@ export default {
     return {
       showChallenges: true,
       challenges: database.challenges,
-      recolorWords: database.recolor
+      recolorWords: database.recolor,
+      sortBy: 'rewards'
     }
   },
-  props: ['item', 'type'],
+  props: ['items', 'type'],
   components: { Accordion },
   methods: {
     totalChallenges(challenges) {
@@ -98,6 +108,25 @@ export default {
     },
     accordionHeader(challenge) {
       return this.challenges.find(c => c.id === challenge.id).name
+    },
+    challengesMoreThanOne(challengesArray) {
+      return challengesArray.filter(item => item.challenges.flat(Infinity).length > 1)
+    },
+    sortChallenges(challengesArray) {
+      switch(this.sortBy) {
+        case 'legends':
+          challengesArray = challengesArray.sort((a, b) => a.legend.localeCompare(b.legend))
+          return this.challengesMoreThanOne(challengesArray)
+        case 'weapons':
+          challengesArray = challengesArray.sort((a, b) => a.weapon.localeCompare(b.weapon))
+          return this.challengesMoreThanOne(challengesArray)
+        case 'challenges':
+          challengesArray =  challengesArray.sort((a, b) => b.challenges.flat(Infinity).length - a.challenges.flat(Infinity).length)
+          return this.challengesMoreThanOne(challengesArray)
+        case 'rewards':
+          challengesArray = challengesArray.sort((a, b) => b.challenges.flat(Infinity).reduce((accumulator, currentValue) => accumulator + currentValue.stars, 0) - a.challenges.flat(Infinity).reduce((accumulator, currentValue) => accumulator + currentValue.stars, 0))
+          return this.challengesMoreThanOne(challengesArray)
+      }
     }
   },
   computed: {

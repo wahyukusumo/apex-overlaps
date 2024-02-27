@@ -8,6 +8,7 @@
     </button>
   </div>
 
+  <!-- Home Tab -->
   <div v-if="currentPanel == 'Home'" class="flex justify-end">
     <div class="text-stone-500 flex flex-col xl:flex-row items-center">
       <div class="mx-10">
@@ -27,22 +28,12 @@
 
   <!-- Legends Overlap Tab -->
   <div v-if="currentPanel == 'Legends Overlap'">
-    <select v-model="legendsSort" class="select sort-select">
-      <option value="legends">Legends Name (A-Z)</option>
-      <option value="challenges">Total Challenges</option>
-      <option value="rewards">Highest Rewards</option>
-    </select>
-    <ChallengeCard v-for="legend in sortLegendChallenges(overlap.legendChallenges)" :item="legend" type="legends" />
+    <ChallengeCard :items="overlap.legendChallenges" type="legends" />
   </div>
 
   <!-- Weapons Overlap Tab -->
   <div v-if="currentPanel == 'Weapons Overlap'">
-    <select v-model="weaponsSort" class="select sort-select">
-      <option value="weapons">Weapons Type (A-Z)</option>
-      <option value="challenges">Total Challenges</option>
-      <option value="rewards">Highest Rewards</option>
-    </select>
-    <ChallengeCard v-for="weapon in sortWeaponChallenges(overlap.weaponChallenges)" :item="weapon" type="weapons" />
+    <ChallengeCard :items="overlap.weaponChallenges" type="weapons" />
   </div>
 
   <div v-if="currentPanel == 'Others Overlap'">
@@ -62,8 +53,6 @@ export default {
     return {
       currentPanel: 'Home',
       overlapTitles: ['Home', 'Legends Overlap', 'Weapons Overlap', 'Others Overlap'],
-      legendsSort: 'rewards',
-      weaponsSort: 'rewards'
     }
   },
   props: ['overlap', 'emitEvent'],
@@ -71,32 +60,6 @@ export default {
   methods: {
     chooseTab(title) {
       this.currentPanel = title
-    },
-    sortTotalChallenges(challengesArray) {
-      return challengesArray.sort((a, b) => b.challenges.flat(Infinity).length - a.challenges.flat(Infinity).length)
-    },
-    sortTotalRewards(challengesArray) {
-      return challengesArray.sort((a, b) => b.challenges.flat(Infinity).reduce((accumulator, currentValue) => accumulator + currentValue.stars, 0) - a.challenges.flat(Infinity).reduce((accumulator, currentValue) => accumulator + currentValue.stars, 0))
-    },
-    sortLegendChallenges(challengesArray) {
-      switch(this.legendsSort) {
-        case 'legends':
-          return challengesArray.sort((a, b) => a.legend.localeCompare(b.legend))
-        case 'challenges':
-          return this.sortTotalChallenges(challengesArray)
-        case 'rewards':
-          return this.sortTotalRewards(challengesArray)
-      }
-    },
-    sortWeaponChallenges(challengesArray) {
-      switch(this.weaponsSort) {
-        case 'weapons':
-          return challengesArray.sort((a, b) => a.weapon.localeCompare(b.weapon))
-        case 'challenges':
-          return this.sortTotalChallenges(challengesArray)
-        case 'rewards':
-          return this.sortTotalRewards(challengesArray)
-      }
     }
   },
   computed: {

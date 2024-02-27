@@ -17,22 +17,11 @@
       </thead>
 
       <tbody class="divide-y divide-stone-800 dark:divide-stone-200">
-        <tr v-if="type != 'legend'" v-for="item, index in tableSorting()" :key="item">
+        <tr v-for="item, index in tableSorting()" :key="item">
           <td class="w-10">{{ index + 1 }}</td>
           <td class="max-w-96 2xl:whitespace-nowrap" v-html="recolorAndAddBadge(item[0].name, 'text-amber')" />
           <td class="flex flex-col gap-1 lg:flex-row lg:gap-0"><span v-for="week in item.map(obj => obj.week)" class="week-badge">{{ week }}</span></td>
           <td>{{ starsAndLevel(item) }}</td>
-        </tr>
-
-        <tr v-if="type == 'legend' && items.length > 0" v-for="item, index in items">
-          <td class="w-10">{{ index }}</td>
-          <td class="">
-            <img v-bind:src="`./potraits/Portrait_${item.legend}_square.webp`" :width="50">
-            {{ item.legend }}
-          </td>
-          <td><p v-for="challenge in item.challenges">{{ challenge.name }}</p></td>
-          <td class="flex flex-col gap-1 lg:flex-row lg:gap-0"><span v-for="week in item.map(obj => obj.week)" class="week-badge">{{ week }}</span></td>
-          <td></td>
         </tr>
 
         <tr v-if="items.length === 0">
@@ -55,7 +44,7 @@ export default {
       tableSort: 'rewards',
     }
   },
-  props: ['fields', 'items', 'type'],
+  props: ['fields', 'items'],
   components: { Accordion },
   methods: {
     recolorString(inputString, classColor){
