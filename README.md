@@ -1,5 +1,5 @@
 <p align="center">
-    ![Overlaps Logo](public/overlaps.png)
+  <img src="public/overlaps.png" alt="Overlaps Logo"/ width="150">
 </p>
 
  Apex Overlaps is a free tool that will help you find overlaps in your Apex Legends weekly challenges. This tool will find and separate challenge overlaps based on legends, weapons, battle royale mode, and challenges that can be completed in any mode.
