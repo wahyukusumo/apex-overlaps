@@ -126,7 +126,8 @@
       "name": "Play 12 matches as [legends]",
       "stars": 10,
       "mode": "Any",
-      "type": "legend"
+      "type": "legend",
+      "group": "1st"
     },
     {
       "id": 2,
@@ -135,7 +136,8 @@
       "nbr": "Deal 15000 damage with Assault Rifles",
       "stars": 10,
       "mode": "Any",
-      "type": "weapon"
+      "type": "weapon",
+      "group": "2nd"
     },
     {
       "id": 3,
@@ -144,7 +146,8 @@
       "nbr": "Deal 10000 damage with Light Machine Guns",
       "stars": 10,
       "mode": "Any",
-      "type": "weapon"
+      "type": "weapon",
+      "group": "2nd"
     },
     {
       "id": 4,
@@ -153,7 +156,8 @@
       "nbr": "Deal 5000 damage with Marksman Weapons",
       "stars": 10,
       "mode": "Any",
-      "type": "weapon"
+      "type": "weapon",
+      "group": "2nd"
     },
     {
       "id": 5,
@@ -162,7 +166,8 @@
       "nbr": "Deal 2500 damage with Pistols",
       "stars": 10,
       "mode": "Any",
-      "type": "weapon"
+      "type": "weapon",
+      "group": "2nd"
     },
     {
       "id": 6,
@@ -171,7 +176,8 @@
       "nbr": "Deal 3500 damage with Shotguns",
       "stars": 10,
       "mode": "Any",
-      "type": "weapon"
+      "type": "weapon",
+      "group": "2nd"
     },
     {
       "id": 7,
@@ -180,7 +186,8 @@
       "nbr": "Deal 5000 damage with Sniper Rifles",
       "stars": 10,
       "mode": "Any",
-      "type": "weapon"
+      "type": "weapon",
+      "group": "2nd"
     },
     {
       "id": 8,
@@ -189,7 +196,8 @@
       "nbr": "Deal 15000 damage with Sub Machine Guns",
       "stars": 10,
       "mode": "Any",
-      "type": "weapon"
+      "type": "weapon",
+      "group": "2nd"
     },
     {
       "id": 9,
@@ -198,7 +206,8 @@
       "nbr": "Deal 8000 damage as [legends]",
       "stars": 10,
       "mode": "Any",
-      "type": "legend"
+      "type": "legend",
+      "group": "3rd"
     },
     {
       "id": 10,
@@ -207,7 +216,8 @@
       "nbr": " Get 50 knockdows with Assault Rifles",
       "stars": 10,
       "mode": "Any",
-      "type": "weapon"
+      "type": "weapon",
+      "group": "4th"
     },
     {
       "id": 11,
@@ -216,7 +226,8 @@
       "nbr": " Get 40 knockdows with Light Machine Guns",
       "stars": 10,
       "mode": "Any",
-      "type": "weapon"
+      "type": "weapon",
+      "group": "4th"
     },
     {
       "id": 12,
@@ -225,7 +236,8 @@
       "nbr": " Get 20 knockdows with Marksman Weapons",
       "stars": 10,
       "mode": "Any",
-      "type": "weapon"
+      "type": "weapon",
+      "group": "4th"
     },
     {
       "id": 13,
@@ -234,7 +246,8 @@
       "nbr": " Get 20 knockdows with Pistols",
       "stars": 10,
       "mode": "Any",
-      "type": "weapon"
+      "type": "weapon",
+      "group": "4th"
     },
     {
       "id": 14,
@@ -243,7 +256,8 @@
       "nbr": " Get 35 knockdows with Shotguns",
       "stars": 10,
       "mode": "Any",
-      "type": "weapon"
+      "type": "weapon",
+      "group": "4th"
     },
     {
       "id": 15,
@@ -252,7 +266,8 @@
       "nbr": " Get 30 knockdows with Sniper Rifles",
       "stars": 10,
       "mode": "Any",
-      "type": "weapon"
+      "type": "weapon",
+      "group": "4th"
     },
     {
       "id": 16,
@@ -261,7 +276,8 @@
       "nbr": "Get 50 knockdows with Sub Machine Guns",
       "stars": 10,
       "mode": "Any",
-      "type": "weapon"
+      "type": "weapon",
+      "group": "4th"
     },
     {
       "id": 17,
@@ -270,7 +286,8 @@
       "nbr": "Deal 8000 damage",
       "stars": 5,
       "mode": "Any",
-      "type": "any"
+      "type": "any",
+      "group": "5th"
     },
     {
       "id": 18,
@@ -279,7 +296,8 @@
       "nbr": "Deal 750 damage in a single match",
       "stars": 5,
       "mode": "Any",
-      "type": "any"
+      "type": "any",
+      "group": "5th"
     },
     {
       "id": 19,
@@ -288,7 +306,8 @@
       "nbr": "Get 30 kills as [legends]",
       "stars": 5,
       "mode": "Any",
-      "type": "legend"
+      "type": "legend",
+      "group": "5th"
     },
     {
       "id": 20,
@@ -297,7 +316,8 @@
       "nbr": "Get 65 kills or assists",
       "stars": 5,
       "mode": "Any",
-      "type": "any"
+      "type": "any",
+      "group": "5th"
     },
     {
       "id": 21,
@@ -306,315 +326,360 @@
       "nbr": "Win 5 matches",
       "stars": 5,
       "mode": "Any",
-      "type": "any"
+      "type": "any",
+      "group": "5th"
     },
     {
       "id": 22,
       "name": "Deal 1000 damage with a Red-Tier weapon",
       "stars": 5,
       "mode": "Any",
-      "type": "weapon"
+      "type": "weapon",
+      "group": "6th-7th"
     },
     {
       "id": 23,
       "name": "Deal 4000 damage from hipfire",
       "stars": 5,
       "mode": "Any",
-      "type": "weapon"
+      "type": "weapon",
+      "group": "6th-7th"
     },
     {
       "id": 24,
       "name": "Deal 500 melee damage",
       "stars": 5,
       "mode": "Any",
-      "type": "weapon"
+      "type": "weapon",
+      "group": "6th-7th"
     },
     {
       "id": 25,
       "name": "BR:Finish in the top-3 3 times getting at least 3 kills, knockdowns or assists",
       "stars": 5,
       "mode": "BR",
-      "type": "br"
+      "type": "br",
+      "group": "6th-7th"
     },
     {
       "id": 26,
       "name": "Get 25 headshots",
       "stars": 5,
       "mode": "Any",
-      "type": "any"
+      "type": "any",
+      "group": "6th-7th"
     },
     {
       "id": 27,
       "name": "BR:Get a Top 5 finish 10 times",
       "stars": 5,
       "mode": "BR",
-      "type": "br"
+      "type": "br",
+      "group": "6th-7th"
     },
     {
       "id": 28,
       "name": "BR:Perform 10 finishing moves",
       "stars": 5,
       "mode": "BR",
-      "type": "br"
+      "type": "br",
+      "group": "6th-7th"
     },
     {
       "id": 29,
       "name": "Play 5 matches as a Assault in any game mode",
       "stars": 5,
       "mode": "Any",
-      "type": "legend"
+      "type": "legend",
+      "group": "6th-7th"
     },
     {
       "id": 30,
       "name": "Play 5 matches as a Controller in any game mode",
       "stars": 5,
       "mode": "Any",
-      "type": "legend"
+      "type": "legend",
+      "group": "6th-7th"
     },
     {
       "id": 31,
       "name": "Play 5 matches as a Recon in any game mode",
       "stars": 5,
       "mode": "Any",
-      "type": "legend"
+      "type": "legend",
+      "group": "6th-7th"
     },
     {
       "id": 32,
       "name": "Play 5 matches as a Skirmisher in any game mode",
       "stars": 5,
       "mode": "Any",
-      "type": "legend"
+      "type": "legend",
+      "group": "6th-7th"
     },
     {
       "id": 33,
       "name": "Play 5 matches as a Support in any game mode",
       "stars": 5,
       "mode": "Any",
-      "type": "legend"
+      "type": "legend",
+      "group": "6th-7th"
     },
     {
       "id": 34,
       "name": "BR:Revive Squadmates 50 times",
       "stars": 5,
       "mode": "BR",
-      "type": "br"
+      "type": "br",
+      "group": "6th-7th"
     },
     {
       "id": 35,
       "name": "BR:Survive 30 ring closings",
       "stars": 5,
       "mode": "BR",
-      "type": "br"
+      "type": "br",
+      "group": "6th-7th"
     },
     {
       "id": 36,
       "name": "BR:Collect 1000 Materials for Replicators",
       "stars": 2,
       "mode": "BR",
-      "type": "br"
+      "type": "br",
+      "group": "8th-11th"
     },
     {
       "id": 37,
       "name": "BR:Craft 10 times at a Replicator",
       "stars": 2,
       "mode": "BR",
-      "type": "br"
+      "type": "br",
+      "group": "8th-11th"
     },
     {
       "id": 38,
       "name": "BR:Craft an Expired Ally Banner Card as a Support Legend",
       "stars": 2,
       "mode": "BR",
-      "type": "br"
+      "type": "br",
+      "group": "8th-11th"
     },
     {
       "id": 39,
       "name": "BR:Deal 1000 damage before the end of the first shrink",
       "stars": 2,
       "mode": "BR",
-      "type": "br"
+      "type": "br",
+      "group": "8th-11th"
     },
     {
       "id": 40,
       "name": "Deal 1500 damage from hipfire",
       "stars": 2,
       "mode": "Any",
-      "type": "weapon"
+      "type": "weapon",
+      "group": "8th-11th"
     },
     {
       "id": 41,
       "name": "Deal 750 damage with ordnance",
       "stars": 2,
       "mode": "Any",
-      "type": "weapon"
+      "type": "weapon",
+      "group": "8th-11th"
     },
     {
       "id": 42,
       "name": "BR:Defeat a Squad after Scanning them with a Survey Beacon (Recon Legends Only)",
       "stars": 2,
       "mode": "BR",
-      "type": "br"
+      "type": "br",
+      "group": "8th-11th"
     },
     {
       "id": 43,
       "name": "BR:Equip a weapon attachment in 10 different matches",
       "stars": 2,
       "mode": "BR",
-      "type": "br"
+      "type": "br",
+      "group": "8th-11th"
     },
     {
       "id": 44,
       "name": "BR:Evolve armor from purple to red 3 times",
       "stars": 2,
       "mode": "BR",
-      "type": "br"
+      "type": "br",
+      "group": "8th-11th"
     },
     {
       "id": 45,
       "name": "Get 2 kills with a Red-Tier weapon",
       "stars": 2,
       "mode": "Any",
-      "type": "weapon"
+      "type": "weapon",
+      "group": "8th-11th"
     },
     {
       "id": 46,
       "name": "Kill another player using the same Legend as you 1 time",
       "stars": 2,
       "mode": "Any",
-      "type": "any"
+      "type": "any",
+      "group": "8th-11th"
     },
     {
       "id": 47,
       "name": "BR:Loot 10 legendary items",
       "stars": 2,
       "mode": "BR",
-      "type": "br"
+      "type": "br",
+      "group": "8th-11th"
     },
     {
       "id": 48,
       "name": "Loot 10 neutral care packages",
       "stars": 2,
       "mode": "Any",
-      "type": "any"
+      "type": "any",
+      "group": "8th-11th"
     },
     {
       "id": 49,
       "name": "BR:Loot 50 epic items",
       "stars": 2,
       "mode": "BR",
-      "type": "br"
+      "type": "br",
+      "group": "8th-11th"
     },
     {
       "id": 50,
       "name": "BR:Obtain an Epic Attachment from a Weapon Supply Bin (Assault Legends Only)",
       "stars": 2,
       "mode": "BR",
-      "type": "br"
+      "type": "br",
+      "group": "8th-11th"
     },
     {
       "id": 51,
       "name": "BR:Open 10 Extended Supply Bins as a Support Legend",
       "stars": 2,
       "mode": "BR",
-      "type": "br"
+      "type": "br",
+      "group": "8th-11th"
     },
     {
       "id": 52,
       "name": "BR:Open 10 Weapon Supply Bins as an Assault Legend",
       "stars": 2,
       "mode": "BR",
-      "type": "br"
+      "type": "br",
+      "group": "8th-11th"
     },
     {
       "id": 53,
       "name": "BR:Open 50 supply bins",
       "stars": 2,
       "mode": "BR",
-      "type": "br"
+      "type": "br",
+      "group": "8th-11th"
     },
     {
       "id": 54,
       "name": "BR:Outlive 300 opponents",
       "stars": 2,
       "mode": "BR",
-      "type": "br"
+      "type": "br",
+      "group": "8th-11th"
     },
     {
       "id": 55,
       "name": "Play 10 matches",
       "stars": 2,
       "mode": "Any",
-      "type": "any"
+      "type": "any",
+      "group": "8th-11th"
     },
     {
       "id": 56,
       "name": "BR:Reach an identified next ring zone before the Ring moves (Controller Legends Only)",
       "stars": 2,
       "mode": "BR",
-      "type": "br"
+      "type": "br",
+      "group": "8th-11th"
     },
     {
       "id": 57,
       "name": "Regenerate 1500 temporary shields on temamates with Conduit's Radiant Transfer",
       "stars": 2,
       "mode": "Any",
-      "type": "legend"
+      "type": "legend",
+      "group": "8th-11th"
     },
     {
       "id": 58,
       "name": "Restore 1000 health",
       "stars": 2,
       "mode": "Any",
-      "type": "any"
+      "type": "any",
+      "group": "8th-11th"
     },
     {
       "id": 59,
       "name": "Restore 1500 shields with Shield Cell, Shield Battery, or Phoenix Kit",
       "stars": 2,
       "mode": "Any",
-      "type": "any"
+      "type": "any",
+      "group": "8th-11th"
     },
     {
       "id": 60,
       "name": "BR:Reveal 5 Care Packages as a Skirmisher Legends",
       "stars": 2,
       "mode": "BR",
-      "type": "legend"
+      "type": "legend",
+      "group": "8th-11th"
     },
     {
       "id": 61,
       "name": "BR:Revive Squadmates 20 times",
       "stars": 2,
       "mode": "BR",
-      "type": "br"
+      "type": "br",
+      "group": "8th-11th"
     },
     {
       "id": 62,
       "name": "BR:Survive 20 ring closings",
       "stars": 2,
       "mode": "BR",
-      "type": "br"
+      "type": "br",
+      "group": "8th-11th"
     },
     {
       "id": 63,
       "name": "Thank a squadmate in 10 different matches",
       "stars": 2,
       "mode": "Any",
-      "type": "any"
+      "type": "any",
+      "group": "8th-11th"
     },
     {
       "id": 64,
       "name": "BR:Use a Ring Console as a Controller Legend 10 times",
       "stars": 2,
       "mode": "BR",
-      "type": "br"
+      "type": "br",
+      "group": "8th-11th"
     },
     {
       "id": 65,
       "name": "BR:Use a Survey Beacon as a Recon Legend 10 times",
       "stars": 2,
       "mode": "BR",
-      "type": "br"
+      "type": "br",
+      "group": "8th-11th"
     }
   ]
 }
