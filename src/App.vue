@@ -8,7 +8,7 @@
       <div>
         <!-- Overlaps Button -->
         <div class="my-2">
-          <div @click="calculateOverlap" class="side-menu" :class="{'side-menu-selected': overlapView }">
+          <div @click="findOverlaps" class="side-menu" :class="{'side-menu-selected': overlapView }">
             <p>Overlaps</p>
           </div>
         </div>
@@ -25,7 +25,7 @@
 
     <!-- Grid 2 -- Main -->
     <div v-show="!overlapView" class="main-panel">
-      <h1 class="lg:hidden text-stone-200 text-center font-semibold text-xl my-4">{{ currentWeek }}</h1>
+      <h1 class="lg:hidden text-stone-800 dark:text-stone-200 text-center font-semibold text-xl my-4">{{ currentWeek }}</h1>
 
       <!-- Challenge 1 -->
       <Card :isFill="currentWeekChallenges.values.challenge1.legend3">
@@ -270,13 +270,13 @@ export default {
       return highlightWords
     },
     initializeGroups() {
-      this.challengeGroups.group1 = this.challenges[0]
-      this.challengeGroups.group2 = this.challenges.slice(1, 8)
-      this.challengeGroups.group3 = this.challenges[8]
-      this.challengeGroups.group4 = this.challenges.slice(9, 16)
-      this.challengeGroups.group5 = this.challenges.slice(16, 21)
-      this.challengeGroups.group67 = this.challenges.slice(21, 35)
-      this.challengeGroups.group811 = this.challenges.slice(35, 65)
+      this.challengeGroups.group1 = this.challenges.find((challenge) => challenge.group === '1st')
+      this.challengeGroups.group2 = this.challenges.filter((challenge) => challenge.group === '2nd')
+      this.challengeGroups.group3 = this.challenges.find((challenge) => challenge.group === '3rd')
+      this.challengeGroups.group4 = this.challenges.filter((challenge) => challenge.group === '4th')
+      this.challengeGroups.group5 = this.challenges.filter((challenge) => challenge.group === '5th')
+      this.challengeGroups.group67 = this.challenges.filter((challenge) => challenge.group === '6th-7th')
+      this.challengeGroups.group811 = this.challenges.filter((challenge) => challenge.group === '8th-11th')
     },
     removeCurrentWeek() {
       this.currentWeekChallenges.values = {
@@ -472,7 +472,8 @@ export default {
       // return Object.values(groupedById).filter(group => group.length > 1)
       return Object.values(groupedById)
     },
-    calculateOverlap() {
+    // Find overlaps challenges
+    findOverlaps() {
       this.overlapView = true
       this.sidebarView = !this.sidebarView
 
@@ -486,6 +487,7 @@ export default {
       myOverlaps.unspecificChallenges = []
 
       // Legend Challenges
+      // From all challenges, get challenges with legend type
       const allLegendsChallenges = allChallenges.filter(challenge => challenge.type === 'legend')
       for (let c in allLegendsChallenges) {
         let challenge = allLegendsChallenges[c]
