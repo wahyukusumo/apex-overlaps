@@ -36,6 +36,7 @@
     <ChallengeCard :items="overlap.weaponChallenges" type="weapons" />
   </div>
 
+  <!-- Others Overlap Tab -->
   <div v-if="currentPanel == 'Others Overlap'">
     <DataTable :fields="['#', 'Battle Royal Only Challenge', 'Weeks', 'Total Reward']" :items="overlap.BRChallenges"></DataTable>
     <DataTable :fields="['#', 'Any Mode Challenge', 'Weeks', 'Total Reward']" :items="overlap.unspecificChallenges"></DataTable>
@@ -69,6 +70,6 @@ export default {
 
 <style>
 .sort-select {
-  @apply text-stone-800 dark:text-stone-200 border border-stone-600 p-2 mx-2
+  @apply text-stone-800 dark:text-stone-200 border border-stone-600 p-2 mx-2 w-48
 }
 </style>
