@@ -22,17 +22,15 @@
           <!--body-->
           <div class="relative p-4 flex-auto">
             <p class="my-1 text-blueGray-500 text-base leading-relaxed">
-              Are you sure want to remove <span class="underline decoration-pink-600 font-semibold">{{ week }}</span> data? This action can't be undo
+              Are you sure you want to remove <span class="underline decoration-pink-600 font-semibold">{{ week }}</span> data? This action can't be undone.
             </p>
           </div>
           <!--footer-->
-          <div class="flex items-center justify-end p-2 border-t border-solid border-blueGray-200 rounded-b">
-            <button class="text-red-500 bg-transparent border border-solid border-red-500 hover:bg-red-500 hover:text-white active:bg-red-600 font-bold uppercase text-sm px-6 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" v-on:click="toggleModal()">
+          <div class="flex items-center justify-end px-4 border-t border-solid border-blueGray-200 rounded-b">
+            <button @click="toggleModal()" class="border-2 border-stone-800 dark:border-stone-100 border-current px-2 py-1 text-sm font-extrabold uppercase tracking-widest dark:text-stone-200 text-stone-800">
               Cancel
             </button>
-            <button @click="$emit('someEvent')" class="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" v-on:click="toggleModal()">
-              Remove
-            </button>
+            <ApexButton @click="$emit('someEvent')" v-on:click="toggleModal()">Remove</ApexButton>
           </div>
         </div>
 
