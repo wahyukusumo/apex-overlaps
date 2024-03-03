@@ -462,7 +462,7 @@
       "name": "BR:Craft an Expired Ally Banner Card as a Support Legend",
       "stars": 2,
       "mode": "BR",
-      "type": "br",
+      "type": "legend",
       "group": "8th-11th"
     },
     {
@@ -494,7 +494,7 @@
       "name": "BR:Defeat a Squad after Scanning them with a Survey Beacon (Recon Legends Only)",
       "stars": 2,
       "mode": "BR",
-      "type": "br",
+      "type": "legend",
       "group": "8th-11th"
     },
     {
@@ -558,7 +558,7 @@
       "name": "BR:Obtain an Epic Attachment from a Weapon Supply Bin (Assault Legends Only)",
       "stars": 2,
       "mode": "BR",
-      "type": "br",
+      "type": "legend",
       "group": "8th-11th"
     },
     {
@@ -566,7 +566,7 @@
       "name": "BR:Open 10 Extended Supply Bins as a Support Legend",
       "stars": 2,
       "mode": "BR",
-      "type": "br",
+      "type": "legend",
       "group": "8th-11th"
     },
     {
@@ -574,7 +574,7 @@
       "name": "BR:Open 10 Weapon Supply Bins as an Assault Legend",
       "stars": 2,
       "mode": "BR",
-      "type": "br",
+      "type": "legend",
       "group": "8th-11th"
     },
     {
@@ -606,7 +606,7 @@
       "name": "BR:Reach an identified next ring zone before the Ring moves (Controller Legends Only)",
       "stars": 2,
       "mode": "BR",
-      "type": "br",
+      "type": "legend",
       "group": "8th-11th"
     },
     {
@@ -670,7 +670,7 @@
       "name": "BR:Use a Ring Console as a Controller Legend 10 times",
       "stars": 2,
       "mode": "BR",
-      "type": "br",
+      "type": "legend",
       "group": "8th-11th"
     },
     {
@@ -678,7 +678,7 @@
       "name": "BR:Use a Survey Beacon as a Recon Legend 10 times",
       "stars": 2,
       "mode": "BR",
-      "type": "br",
+      "type": "legend",
       "group": "8th-11th"
     }
   ]
