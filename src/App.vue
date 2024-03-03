@@ -503,11 +503,9 @@ export default {
 
           // Loop through legend classes
           for (let j in this.legendClasses) {
-            if (challenge.name.startsWith('Play 5 matches as a')) {
-              // If legend class is in challenge AND if current legend in legend class
-              if (challenge.name.includes(this.legendClasses[j].class) && this.legendClasses[j].legends.includes(this.legends[i])) {
-                legendObj.challenges.push(challenge)
-              }
+            // If legend class is in challenge AND if current legend in legend class
+            if (challenge.name.includes(this.legendClasses[j].class) && this.legendClasses[j].legends.includes(this.legends[i])) {
+              legendObj.challenges.push(challenge)
             }
           }
 
