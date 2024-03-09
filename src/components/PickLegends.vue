@@ -47,6 +47,10 @@
       <!-- Remove Button -->
       <ButtonRemove @click="clearInput('update:selectedLegend3')" :modelValue="selectedLegend3" />
     </div>
+
+    <button @click="clearAllLegends()" class="select-container font-semibold">
+      Clear All
+    </button>
   </div>
 </template>
 
@@ -64,6 +68,12 @@ export default {
   methods: {
     clearInput(update) {
       this.$emit(update, null);
+      this.$emit('saved');
+    },
+    clearAllLegends() {
+      this.$emit('update:selectedLegend1', null);
+      this.$emit('update:selectedLegend3', null);
+      this.$emit('update:selectedLegend2', null);
       this.$emit('saved');
     }
   },
